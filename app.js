@@ -9,7 +9,7 @@ form.addEventListener('submit', (e) => {
     let score = 0;
 
     // userAns from the radio value
-    let userAns = [form.q1.value, form.q2.value, form.q3.value, form.q4.value, form.q5.value, form.q6.value, form.q7.value, form.q8.value, form.q9.value];
+    let userAns = [form.q1.value, form.q2.value, form.q3.value, form.q4.value, form.q5.value, form.q6.value, form.q7.value, form.q8.value, form.q9.value, form.q10.value];
 
     // loop through the answers of the user and check (if) their answer === correctAns position
     userAns.forEach((ans, index) => {
